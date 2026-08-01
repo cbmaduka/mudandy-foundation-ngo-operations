@@ -110,10 +110,6 @@ Operational staff benefit from detailed task management, while leadership gains 
 
 ![Gantt View](../screenshots/06-gantt-view.png)
 
-### Executive Dashboard
-
-![Executive Dashboard](../screenshots/10-executive-dashboard.png)
-
 ---
 
 ## Consultant Notes
