@@ -1,23 +1,26 @@
 # 🌍 Mudandy Foundation | NGO Operations Management with Monday.com
-A Monday.com implementation for managing NGO programs, volunteers, grants, field activities, workflows, and executive reporting.
+
+A complete **Monday.com implementation** for **Mudandy Foundation**, demonstrating how nonprofit organizations can centralize program planning, execution, monitoring, and executive reporting using a modern project management platform.
+
+---
 
 ## 📖 Project Overview
 
-This project showcases the implementation of **Monday.com** for **Mudandy Foundation**, a fictional non-governmental organization (NGO) dedicated to improving lives through healthcare outreach, education initiatives, community development, and youth empowerment programs across underserved communities.
+Mudandy Foundation is a sample non-governmental organization (NGO) committed to improving lives through healthcare outreach, education, youth empowerment, women empowerment, disaster relief, and sustainable community development initiatives.
 
-The implementation demonstrates how Monday.com can be configured to streamline operations, improve collaboration, increase project visibility, and support data-driven decision-making within a mission-driven organization.
+As the organization expanded its programs and partnerships, managing projects through spreadsheets, emails, and disconnected documents became increasingly inefficient. This implementation demonstrates how **Monday.com** can be configured to streamline operations, improve collaboration, increase visibility, and support data-driven decision-making.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Centralize project and program management
-- Improve collaboration across departments and volunteers
-- Track grants, donors, and funding activities
-- Monitor community outreach initiatives
-- Automate repetitive administrative tasks
-- Visualize project progress through dashboards and reports
-- Enhance accountability through standardized workflows
+- Centralize community program management
+- Standardize project workflows
+- Improve collaboration across program teams
+- Monitor initiatives from request to completion
+- Improve visibility into organizational activities
+- Support executive reporting through dashboards
+- Enhance accountability through structured ownership
 
 ---
 
@@ -26,8 +29,8 @@ The implementation demonstrates how Monday.com can be configured to streamline o
 | Item | Description |
 |------|-------------|
 | **Organization** | Mudandy Foundation |
-| **Industry** | Non-Profit Organization (NGO) |
-| **Mission** | Empower underserved communities through healthcare, education, youth development, and sustainable community initiatives. |
+| **Industry** | Non-Governmental Organization (NGO) |
+| **Mission** | Empower underserved communities through healthcare, education, youth development, women empowerment, and sustainable community initiatives. |
 | **Platform** | Monday.com |
 
 ---
@@ -36,19 +39,60 @@ The implementation demonstrates how Monday.com can be configured to streamline o
 
 The implementation includes:
 
-- Program & Project Management
-- Volunteer Management
-- Grant & Donor Tracking
-- Field Activity Management
-- Task Management
-- Workflow Automations
-- Calendar, Timeline & Kanban Views
+- Community Programs Board
+- NGO Program Lifecycle
+- Custom Program Management Fields
+- Multiple Board Views
+- Calendar Scheduling
+- Gantt Planning
 - Executive Dashboard
-- Workload Management
-- Performance Reporting
+- Portfolio Reporting
 
 ---
 
+# 📸 Implementation Highlights
+
+## Community Programs Board
+
+The Community Programs board serves as the operational hub for tracking initiatives from initial requests through planning, implementation, monitoring, and completion.
+
+| Board Structure | Custom Program Fields |
+|-----------------|----------------------|
+| ![](screenshots/01-community-programs-board.png) | ![](screenshots/02-program-board-columns.png) |
+
+---
+
+## Board Views
+
+Different views were configured to support project teams, coordinators, and leadership.
+
+| Main Table | Kanban View |
+|------------|-------------|
+| ![](screenshots/03-main-table.png) | ![](screenshots/04-kanban-view.png) |
+
+| Calendar View | Gantt View |
+|---------------|------------|
+| ![](screenshots/05-calendar-view.png) | ![](screenshots/06-gantt-view.png) |
+
+---
+
+## Executive Reporting
+
+Leadership dashboards provide real-time visibility into organizational performance.
+
+| Dashboard Widgets | Programs by Status |
+|-------------------|--------------------|
+| ![](screenshots/07-dashboard-widget-library.png) | ![](screenshots/08-dashboard-program-status.png) |
+
+| Programs by Type | Executive Dashboard |
+|------------------|---------------------|
+| ![](screenshots/09-dashboard-program-types.png) | ![](screenshots/10-executive-dashboard.png) |
+
+---
+
+## 📂 Repository Structure
+
+```text
 mudandy-foundation-ngo-operations/
 │
 ├── README.md
@@ -57,55 +101,42 @@ mudandy-foundation-ngo-operations/
 │   ├── 01-project-overview.md
 │   ├── 02-business-requirements.md
 │   ├── 03-workspace-setup.md
-│   ├── 04-programs-board.md
+│   ├── 04-community-programs-board.md
 │   ├── 05-custom-columns.md
-│   ├── 06-automations.md
-│   ├── 07-board-views.md
-│   ├── 08-dashboard.md
-│   ├── 09-workload-management.md
-│   └── 10-project-summary.md
+│   ├── 06-board-views.md
+│   ├── 07-executive-dashboard.md
+│   ├── 08-project-summary.md
+│   └── 09-client-handover.md
 │
 ├── screenshots/
+│   ├── 01-community-programs-board.png
+│   ├── 02-program-board-columns.png
+│   ├── 03-main-table.png
+│   ├── 04-kanban-view.png
+│   ├── 05-calendar-view.png
+│   ├── 06-gantt-view.png
+│   ├── 07-dashboard-widget-library.png
+│   ├── 08-dashboard-program-status.png
+│   ├── 09-dashboard-program-types.png
+│   └── 10-executive-dashboard.png
 │
 └── assets/
-
----
-
-## 📸 Implementation Journey
-
-| Step | Documentation |
-|------|---------------|
-| 01 | Project Overview |
-| 02 | Business Requirements |
-| 03 | Workspace Setup |
-| 04 | Programs Board |
-| 05 | Custom Columns |
-| 06 | Workflow Automations |
-| 07 | Board Views |
-| 08 | Executive Dashboard |
-| 09 | Workload Management |
-| 10 | Project Summary |
+```
 
 ---
 
 ## 📊 Features Implemented
 
-- Project & Program Tracking
-- Volunteer Coordination
-- Grant Management
-- Donor Management
-- Task Assignment
-- Status Tracking
-- Timeline Planning
-- Workload Monitoring
-- Workflow Automation
-- Dashboard Reporting
-
----
-
-## 📷 Screenshots
-
-Implementation screenshots are available in the **screenshots** folder and document each stage of the project configuration.
+- NGO Program Management
+- Program Lifecycle Tracking
+- Project Portfolio Management
+- Custom Program Fields
+- Status Workflow
+- Calendar Scheduling
+- Gantt Planning
+- Kanban Workflow
+- Executive Dashboard
+- Portfolio Reporting
 
 ---
 
@@ -113,21 +144,22 @@ Implementation screenshots are available in the **screenshots** folder and docum
 
 - Monday.com Administration
 - Project Management
-- Workflow Automation
+- NGO Operations
 - Business Process Design
 - Dashboard Development
-- NGO Operations
-- Team Collaboration
-- Process Improvement
+- Portfolio Management
+- Workflow Design
+- Executive Reporting
 - Documentation
+- Process Improvement
 
 ---
 
 ## 📌 Business Scenario
 
-Mudandy Foundation needed a centralized project management platform to coordinate community programs, manage volunteers, monitor grant-funded initiatives, and improve visibility across teams.
+Mudandy Foundation required a centralized project management platform to coordinate community initiatives, improve collaboration, monitor program delivery, and provide leadership with meaningful operational insights.
 
-Monday.com was implemented to replace manual spreadsheets and disconnected workflows with a collaborative, scalable, and automated project management solution.
+Monday.com was implemented to replace fragmented project tracking with a structured, collaborative, and scalable NGO operations management system.
 
 ---
 
