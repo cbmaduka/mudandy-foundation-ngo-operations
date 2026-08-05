@@ -162,6 +162,10 @@ Mudandy Foundation required a centralized project management platform to coordin
 Monday.com was implemented to replace fragmented project tracking with a structured, collaborative, and scalable NGO operations management system.
 
 ---
+## Live Repository
+
+🔗 **GitHub Repository:**  
+https://github.com/cbmaduka/mudandy-foundation-ngo-operations
 
 # Author
 
